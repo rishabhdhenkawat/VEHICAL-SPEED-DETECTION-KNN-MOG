@@ -19,14 +19,14 @@ Final speed is provided by dividing the difference between initial and final coo
 Optimization note: processing time is compansated with real time hence the time used for processing does not affect the actual time, vehical has taken.
 
 #### INSTRUCTIONS TO RUN
-1. USING FLASK
-   a. Clone this repositry
-   b. Install the required libraries from requirements.txt file
-   c. Run app.py python3 file
-   d. Open any browser type localhost:5000/
-   e. Upload the video to be processed.
-2. USING DOCKER
-   a. Directly bulid the docker image using docker file and run the image.
+1. USING FLASK <br />
+   a. Clone this repositry <br />
+   b. Install the required libraries from requirements.txt file <br />
+   c. Run app.py python3 file <br />
+   d. Open any browser type localhost:5000/ <br />
+   e. Upload the video to be processed. <br />
+2. USING DOCKER <br />
+   a. Directly bulid the docker image using docker file and run the image. <br />
     
     
     
