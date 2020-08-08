@@ -1,7 +1,7 @@
 
-##VECHICLE SPEED CALCULATION
+## VECHICLE SPEED CALCULATION USING OPEN CV PYTHON
 
-#### Vehicle Detection ####
+#### SUMMARY ####
 This project estimates the real time vehical speed on roads from any real time stream or recorded video and done for the evaluation by synergy labs  pvt ltd.
 Libraries and funtions used : KNN background subtraction and morphology to isolate the vehicles and detect their contours, dlib, open cv for image processing , numpy for mathmetical operations, flask as framework, docker for deployment.  
 
@@ -18,12 +18,24 @@ calculated average speed.
 Final speed is provided by dividing the difference between initial and final coordinates by time until vehical crossed the light blue line
 Optimization note: processing time is compansated with real time hence the time used for processing does not affect the actual time, vehical has taken.
 
-###Refrences###
+#### INSTRUCTIONS TO RUN
+1. USING FLASK
+   a. Clone this repositry
+   b. Install the required libraries from requirements.txt file
+   c. Run app.py python3 file
+   d. Open any browser type localhost:5000/
+   e. Upload the video to be processed.
+2. USING DOCKER
+   a. Directly bulid the docker image using docker file and run the image.
+    
+    
+    
+### Refrences ###
 
 StackOverflow post: (https://stackoverflow.com/questions/36254452/counting-cars-opencv-python-issue/36274515#36274515), 
 
 Research Paper :sDetection of Vehicle Position and Speed using Camera Calibration and Image Projection Methods
 Author links open overlay panelAlexander A SGunawanaDeasy ApriliaTanjungaFergyanto E.Gunawan
 
-######Author
+###### Author
 Rishabh Dhenkawat
