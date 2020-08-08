@@ -3,6 +3,7 @@
 
 #### SUMMARY ####
 This project estimates the real-time vehicle speed on roads from any real-time stream or recorded video and done for the evaluation by synergy labs pvt ltd. Libraries and funtions used: KNN background subtraction and morphology to isolate the vehicles and detect their contours, dlib, open cv for image processing, NumPy for mathematical operations, flask as a framework, docker for deployment. 
+DEMO LINK : https://www.youtube.com/watch?v=24UYfjb1Dy0
 
 #### Vehicle Tracking ####
 
