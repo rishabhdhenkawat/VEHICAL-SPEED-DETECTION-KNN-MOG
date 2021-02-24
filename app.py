@@ -112,7 +112,7 @@ def gen():
 
 	road_name = "80_donner_lake"
 
-	with open('../Car-Speed-Detection-master/settings.json') as f:
+	with open('settings.json') as f:
 		data = json.load(f)
 		print(data)
 		try:
@@ -448,4 +448,4 @@ def video_feed():
 					mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-	app.run(host='0.0.0.0')
+	app.run(host='0.0.0.0',debug=True)
